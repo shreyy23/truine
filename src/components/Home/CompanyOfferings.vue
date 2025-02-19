@@ -9,7 +9,7 @@
       </div>
 
       <!-- Cards Container -->
-      <div class="w-full flex flex-wrap justify-center lg:justify-between gap-[20px] lg:gap-[40px]">
+      <div class="w-full flex flex-wrap justify-center lg:justify-between gap-[20px] lg:gap-[40px] items-center">
         <!-- Card 1 -->
         <div class="bg-white rounded-xl overflow-hidden flex 
               w-[343px] h-[285px] 
