@@ -8,7 +8,7 @@
         </div>
 
         <!-- Grid -->
-        <div class="grid grid-cols-3 md:grid-cols-3 lg:grid-cols-5 gap-[40px] ">
+        <div class="grid grid-cols-3 md:grid-cols-3 lg:grid-cols-5 gap-[40px] justify-center lg:justify-between">
     <div class="w-[90px] h-[26px] lg:w-[130px] lg:h-[36.61px]">
         <img src="/clients/client1.png" class="w-full h-full object-contain" />
     </div>

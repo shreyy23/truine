@@ -48,7 +48,7 @@
                         <!-- Watermark (Behind Text) -->
                         <div class="absolute top-3 right-3 opacity-80 z-0 pointer-events-none">
                             <img src="/img/icons/watermark.png"
-                                class="lg:w-[135px] lg:h-[180px] sm:w-[165px] sm:h-[225px] object-contain">
+                                class="w-[136px] h-[186px] lg:w-[135px] lg:h-[180px] object-contain">
                         </div>
 
                         <!-- Card Content -->
