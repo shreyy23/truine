@@ -23,7 +23,7 @@
                     <div class="mt-10 flex">
                         <!-- Clients Button -->
                         <button class="w-[147px] border border-white rounded-l-lg transition duration-300"
-                            :class="activeTab === 'clients' ? 'bg-white text-[#339ABC]' : 'text-white'"
+                            :class="activeTab === 'clients' ? 'bg-white text-[#339ABC] font-semibold' : 'text-white'"
                             @click="activeTab = 'clients'">
                             Clients
                         </button>
@@ -33,18 +33,19 @@
 
                         <!-- Consultants Button -->
                         <button class="w-[147px] border border-white rounded-r-lg transition duration-300"
-                            :class="activeTab === 'consultants' ? 'bg-white text-[#339ABC]' : 'text-white'"
+                            :class="activeTab === 'consultants' ? 'bg-white text-[#339ABC] font-semibold' : 'text-white'"
                             @click="activeTab = 'consultants'">
                             Consultants
                         </button>
                     </div>
+
                 </div>
 
                 <!-- Right Column -->
-                <div class="flex flex-col items-end">
+                <div class="flex flex-col lg:items-start md:items-end w-full">
                     <!-- White Card -->
                     <div class="relative bg-white opacity-90 lg:mt-10 sm:mt-5 mb-5 rounded-md p-6 sm:p-8 
-            lg:w-[619px] lg:h-[280px] sm:w-[343px] sm:h-[326px] w-full overflow-hidden">
+            lg:w-[619px] lg:h-[280px] sm:w-[343px] sm:h-[326px] w-full max-w-full overflow-hidden">
                         <!-- Watermark (Behind Text) -->
                         <div class="absolute top-3 right-3 opacity-80 z-0 pointer-events-none">
                             <img src="/img/icons/watermark.png"
@@ -63,7 +64,6 @@
                             </p>
                         </div>
                     </div>
-
 
                     <!-- Buttons Below the Card -->
                     <div class="flex space-x-4">
