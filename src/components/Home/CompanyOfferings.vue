@@ -1,6 +1,6 @@
 <template>
   <section class="bg-[#F3FEFF]">
-    <div class="container mx-auto m-[60px]">
+    <div class="container mx-auto p-[30px_16px] lg:p-[60px]">
       <!-- Centered Button -->
       <div class="flex justify-center">
         <button class="w-[170px] h-[38px] rounded-[64px] border border-[#339ABC] bg-[#339ABC1A] mb-[30px]">
@@ -10,12 +10,12 @@
 
       <!-- Cards Container -->
       <div
-        class="w-full flex flex-col lg:flex-row justify-center lg:justify-between gap-[20px] lg:gap-[40px] items-center">
+        class="w-full flex flex-col lg:flex-row justify-center  gap-[20px] lg:gap-[40px] items-center">
         <!-- Card 1 -->
         <div class="bg-white rounded-xl overflow-hidden flex 
       w-[343px] h-[285px] 
       md:w-[603px] md:h-[314px] 
-      group  ">
+      group  shadow-[4px_4px_120px_1px_rgba(0,0,0,0.15)]">
           <!-- Left Side: Text -->
           <div class="flex flex-col 
         p-[20px_16px] md:p-[32px] 
@@ -48,7 +48,7 @@ md:text-[21px] md:leading-[31.5px] text-[#606060]">
         <!-- Card 2 -->
         <div class="bg-white rounded-xl overflow-hidden flex 
               w-[343px] h-[285px] 
-              md:w-[603px] md:h-[314px] group">
+              md:w-[603px] md:h-[314px] group shadow-[4px_4px_120px_1px_rgba(0,0,0,0.15)]">
           <!-- Left Side: Text -->
           <div class="flex flex-col justify-between 
                 p-[20px_16px] md:p-[32px] 

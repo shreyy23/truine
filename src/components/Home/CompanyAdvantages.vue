@@ -1,22 +1,22 @@
 <template>
-    <section class="bg-white container mx-auto text-center p-[30px_16px] md:p-[60px]">
+    <section class="bg-white mx-auto max-w-screen-xl px-4 md:px-6 lg:px-8 py-10 md:py-16">
         <!-- Centered Button -->
-        <div class="flex justify-center mb-5">
-            <button class="w-[195px] h-[38px] rounded-[64px] border border-[#339ABC] bg-[#339ABC1A] mb-[30px]">
+        <div class="flex justify-center mb-6">
+            <button class="w-[195px] h-[38px] rounded-full border border-[#339ABC] bg-[#339ABC1A]">
                 The Triune Advantage
             </button>
         </div>
 
-        <!-- Flex container with justify-between -->
-        <div class="max-w-[1246px] h-[487px] mx-auto flex flex-col md:flex-row justify-between gap-x-6">
+        <!-- Content Container -->
+        <div class="flex flex-col md:flex-row items-center justify-between gap-6">
             <!-- Left Column (Image) -->
-            <div class="w-full md:w-[737px] h-[487px]">
+            <div class="w-full md:w-3/5">
                 <img src="/public/img/advantageSection.png" alt="Experience Image" 
-                    class="w-full h-full object-cover">
+                    class="w-full aspect-[16/10] object-cover rounded-lg">
             </div>
 
             <!-- Right Column (Text) -->
-            <div class="w-full md:w-[449px] h-auto md:h-[487px] flex flex-col justify-between text-center md:text-left">
+            <div class="w-full md:w-2/5 flex flex-col justify-between text-center md:text-left">
                 <div>
                     <h4 class="text-[24px] leading-[30px] md:text-[52px] md:leading-[61px] font-semibold text-[#339ABC] mb-5">
                         20 Years Experience
