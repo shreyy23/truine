@@ -1,16 +1,14 @@
 <template>
-  <section class="relative w-full h-[400px] md:h-[500px] lg:h-[600px]">
+  <section class="relative w-full h-[410px]">
     <picture>
       <source srcset="/public/img/Hero-Second_Mobile.png" media="(max-width: 768px)" />
-      <img src="/public/img/Hero-Second.png" alt="Background Image" class="w-full h-full object-cover" />
+      <img src="/public/img/Hero-Second.png" alt="Background Image" class="w-full h-[410px] object-cover" />
     </picture>
 
-    <!-- Wrapper to keep content within container -->
+    <!-- Wrapper to center content -->
     <div class="absolute inset-0 flex items-center justify-center">
-      <div class="container mx-auto px-4 py-16 md:py-20 lg:px-[60px] lg:py-[100px] text-white text-center">
-        <div
-          class="w-full max-w-[1260px] flex flex-col items-center justify-center gap-[20px] mx-auto"
-        >
+      <div class="container mx-auto px-4 lg:px-[60px] text-white text-center">
+        <div class="w-full max-w-[1260px] flex flex-col items-center justify-center gap-5 mx-auto">
           <h1 class="text-[18px] leading-[27px] font-medium lg:text-[33px] lg:leading-[49.5px] md:font-bold">
             Ready to transform your career or elevate your team?
           </h1>

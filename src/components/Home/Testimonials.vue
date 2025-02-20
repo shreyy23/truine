@@ -1,7 +1,7 @@
 <template>
     <div class="bg-[#339ABC] w-full min-h-auto">
         <div class="container mx-auto p-[30px_16px] lg:p-[60px]">
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-start lg:mb-5">
+            <div class="grid grid-cols-1 justify-items-center md:grid-cols-2 gap-6 items-start lg:mb-5">
                 <!-- Left Column -->
                 <div>
                     <h2
@@ -66,7 +66,7 @@
                     </div>
 
                     <!-- Buttons Below the Card -->
-                    <div class="flex space-x-4">
+                    <div class="flex space-x-4 ">
                         <!-- Backward Button -->
                         <button class="w-[42px] h-[42px] flex items-center justify-center rounded-full bg-[#FFFFFF]">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"

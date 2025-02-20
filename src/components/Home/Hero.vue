@@ -8,7 +8,7 @@
 
         <!-- Navbar -->
         <nav class="absolute top-0 left-0 w-full z-20 bg-transparent/25">
-            <div class="container mx-auto flex items-center justify-between p-[16px] lg:py-[30px] lg:px-[60px]">
+            <div class="container mx-auto flex items-center justify-between p-[16px]  lg:px-[60px]">
                 <div class=" lg:p-0">
                     <img src="/public/img/Triune_Logo.png" class="w-[120px] h-[40px] lg:w-[200px] lg:h-[94.77px]">
                 </div>

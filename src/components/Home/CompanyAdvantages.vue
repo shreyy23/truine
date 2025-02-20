@@ -1,5 +1,5 @@
 <template>
-    <section class="bg-white mx-auto max-w-screen-xl px-4 md:px-6 lg:px-8 py-10 md:py-16">
+    <section class="bg-white p-[30px_16px] lg:p-[60px] mx-auto max-w-screen-xl">
         <!-- Centered Button -->
         <div class="flex justify-center mb-6">
             <button class="w-[195px] h-[38px] rounded-full border border-[#339ABC] bg-[#339ABC1A]">
@@ -8,15 +8,15 @@
         </div>
 
         <!-- Content Container -->
-        <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+        <div class="flex flex-col md:flex-row items-center justify-between gap-12 md:gap-16 lg:gap-20">
             <!-- Left Column (Image) -->
-            <div class="w-full md:w-3/5">
+            <div class="w-full md:w-3/5 flex-1">
                 <img src="/public/img/advantageSection.png" alt="Experience Image" 
-                    class="w-full aspect-[16/10] object-cover rounded-lg">
+                    class="w-full h-auto object-cover rounded-lg min-h-[350px] md:min-h-[400px]">
             </div>
 
             <!-- Right Column (Text) -->
-            <div class="w-full md:w-2/5 flex flex-col justify-between text-center md:text-left">
+            <div class="w-full md:w-2/5 flex flex-col justify-center text-center md:text-left flex-1 min-h-[350px] md:min-h-[400px]">
                 <div>
                     <h4 class="text-[24px] leading-[30px] md:text-[52px] md:leading-[61px] font-semibold text-[#339ABC] mb-5">
                         20 Years Experience
