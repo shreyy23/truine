@@ -7,10 +7,10 @@
         </div>
 
         <!-- Navbar -->
-        <nav class="absolute top-0 left-0 w-full p-4 z-20 bg-transparent/25">
-            <div class="container mx-auto flex items-center justify-between">
-                <div>
-                    <img src="/public/img/icons/logo.png" class="max-w-[200px] h-auto">
+        <nav class="absolute top-0 left-0 w-full z-20 bg-transparent/25">
+            <div class="container mx-auto flex items-center justify-between p-[16px]  lg:px-[60px]">
+                <div class=" lg:p-0">
+                    <img src="/public/img/Triune_Logo.png" class="w-[120px] h-[40px] lg:w-[200px] lg:h-[94.77px]">
                 </div>
                 <button v-if="isMobile" @click="toggleMenu" class="text-white text-2xl block lg:hidden">
                     ☰
@@ -31,13 +31,14 @@
                         </a>
                     </li>
                     <li>
-                        <button class="bg-[#339ABC] w-[146px] h-[49px] text-white px-4 py-2 rounded-md">
+                        <button class="bg-[#339ABC] w-[146px] h-[49px] text-white px-4 py-2 rounded-md font-semibold">
                             Find Jobs
                         </button>
                     </li>
                 </ul>
             </div>
         </nav>
+
 
         <!-- Full-Screen Sidebar (Mobile Menu) -->
         <div class="fixed inset-0 bg-white z-30 flex flex-col items-center justify-center transform transition-transform duration-300"
@@ -76,29 +77,30 @@
 
         <!-- Hero Content -->
         <div class="container mx-auto">
-            <div class="absolute inset-0 flex items-center justify-start px-6 sm:px-8 md:px-12 lg:px-20 z-10">
-                <div class="w-[343px] h-[222px] text-white flex flex-col justify-center items-start pt-[6px] 
-                    md:w-[686px] md:h-[390px] md:p-6">
+            <div class="relative flex items-start sm:justify-center md:justify-start md:pl-[60px] md:pt-[308px]">
+                <div class="hidden md:flex w-[343px] h-[222px] text-white flex-col items-start gap-[10px]
+    md:w-[686px] md:h-[390px] md:gap-[20px]">
                     <!-- Button -->
                     <button class="w-[153px] h-[26px] text-[12px] rounded-[64px] border border-[#339ABC] bg-[#339ABC1A] flex items-center justify-center
-                md:w-[213px] md:h-[40px] md:text-base mb-[8px]">
+        md:w-[213px] md:h-[40px] md:text-base">
                         IT Staffing Simplified
                     </button>
                     <!-- Heading -->
-                    <h1
-                        class="text-[30px] leading-[35.19px] font-medium font-sans mb-[25px] md:text-[60px] md:leading-[70.38px]">
+                    <h1 class="text-[30px] leading-[35.19px] font-medium font-sans md:text-[60px] md:leading-[70.38px]">
                         Transforming Careers Since 2005
                     </h1>
                     <!-- Paragraph -->
                     <p class="text-[14px] leading-[23.8px] font-normal md:text-[20px] md:leading-[34px] 
-                        lg:border-l-2 lg:border-[#339ABC] lg:pl-[10px]">
+        lg:border-l-2 lg:border-[#339ABC] lg:pl-[10px]">
                         At Triune, we have been staffing the right way for nearly two decades. Whether
                         you're seeking your next big career opportunity or looking to take your current role to new
                         heights.
                     </p>
                 </div>
+
             </div>
         </div>
+
 
     </div>
 </template>

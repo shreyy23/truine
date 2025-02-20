@@ -1,7 +1,7 @@
 <template>
     <div class="bg-[#339ABC] w-full min-h-auto">
         <div class="container mx-auto p-[30px_16px] lg:p-[60px]">
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-start lg:mb-5">
+            <div class="grid grid-cols-1 justify-items-center md:grid-cols-2 gap-6 items-start lg:mb-5">
                 <!-- Left Column -->
                 <div>
                     <h2
@@ -23,7 +23,7 @@
                     <div class="mt-10 flex">
                         <!-- Clients Button -->
                         <button class="w-[147px] border border-white rounded-l-lg transition duration-300"
-                            :class="activeTab === 'clients' ? 'bg-white text-[#339ABC]' : 'text-white'"
+                            :class="activeTab === 'clients' ? 'bg-white text-[#339ABC] font-semibold' : 'text-white'"
                             @click="activeTab = 'clients'">
                             Clients
                         </button>
@@ -33,22 +33,23 @@
 
                         <!-- Consultants Button -->
                         <button class="w-[147px] border border-white rounded-r-lg transition duration-300"
-                            :class="activeTab === 'consultants' ? 'bg-white text-[#339ABC]' : 'text-white'"
+                            :class="activeTab === 'consultants' ? 'bg-white text-[#339ABC] font-semibold' : 'text-white'"
                             @click="activeTab = 'consultants'">
                             Consultants
                         </button>
                     </div>
+
                 </div>
 
                 <!-- Right Column -->
-                <div class="flex flex-col items-end">
+                <div class="flex flex-col lg:items-start md:items-end w-full">
                     <!-- White Card -->
                     <div class="relative bg-white opacity-90 lg:mt-10 sm:mt-5 mb-5 rounded-md p-6 sm:p-8 
-            lg:w-[619px] lg:h-[280px] sm:w-[343px] sm:h-[326px] w-full overflow-hidden">
+            lg:w-[619px] lg:h-[280px] sm:w-[343px] sm:h-[326px] w-full max-w-full overflow-hidden">
                         <!-- Watermark (Behind Text) -->
                         <div class="absolute top-3 right-3 opacity-80 z-0 pointer-events-none">
                             <img src="/img/icons/watermark.png"
-                                class="lg:w-[135px] lg:h-[180px] sm:w-[165px] sm:h-[225px] object-contain">
+                                class="w-[136px] h-[186px] lg:w-[135px] lg:h-[180px] object-contain">
                         </div>
 
                         <!-- Card Content -->
@@ -64,9 +65,8 @@
                         </div>
                     </div>
 
-
                     <!-- Buttons Below the Card -->
-                    <div class="flex space-x-4">
+                    <div class="flex space-x-4 ">
                         <!-- Backward Button -->
                         <button class="w-[42px] h-[42px] flex items-center justify-center rounded-full bg-[#FFFFFF]">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"

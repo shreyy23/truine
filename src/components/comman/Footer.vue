@@ -1,10 +1,10 @@
 <template>
-    <footer class="bg-white text-gray-800 py-10">
+    <footer class="bg-white text-gray-800 py-5">
         <!-- Main footer section -->
 
 
         <!-- Horizontal line -->
-        <div class="border-t border-black my-6"></div>
+        <div class="border-t border-black "></div>
 
         <!-- Final footer section -->
         <div class="container mx-auto flex flex-col md:flex-row justify-between items-center gap-8 mt-6">
