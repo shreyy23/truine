@@ -8,7 +8,7 @@
 
         <!-- Navbar -->
         <nav class="absolute top-0 left-0 w-full z-20 bg-transparent/25">
-            <div class="container mx-auto flex items-center justify-between p-[16px]  lg:px-[60px]">
+            <div class="container mx-auto flex items-center justify-between p-[8px]  lg:px-[60px]">
                 <div class=" lg:p-0">
                     <img src="/public/img/Triune_Logo.png" class="w-[120px] h-[40px] lg:w-[200px] lg:h-[94.77px]">
                 </div>
@@ -16,22 +16,22 @@
                     ☰
                 </button>
                 <ul class="hidden lg:flex items-center space-x-[30px] text-white">
-                    <li><a href="#" class="text-[18px] font-semibold leading-[27px] hover:text-[#339ABC]">Home</a></li>
-                    <li><a href="#" class="text-[18px] font-semibold leading-[27px] hover:text-[#339ABC]">About</a></li>
+                    <li><a href="#" class="text-[18px] font-medium leading-[27px] hover:text-[#339ABC]">Home</a></li>
+                    <li><a href="#" class="text-[18px] font-medium leading-[27px] hover:text-[#339ABC]">About</a></li>
                     <li>
-                        <a href="#" class="text-[18px] leading-[27px] hover:text-[#339ABC] block font-semibold">
+                        <a href="#" class="text-[18px] leading-[27px] hover:text-[#339ABC] block font-medium">
                             IT Staffing <br>
                             <span class="font-light">Solution</span>
                         </a>
                     </li>
                     <li>
-                        <a href="#" class="text-[18px] leading-[27px] hover:text-[#339ABC] block font-semibold">
+                        <a href="#" class="text-[18px] leading-[27px] hover:text-[#339ABC] block font-medium">
                             IT Solution <br>
                             <span class="font-light">Reseller</span>
                         </a>
                     </li>
                     <li>
-                        <button class="bg-[#339ABC] w-[146px] h-[49px] text-white px-4 py-2 rounded-md font-semibold">
+                        <button class="bg-[#339ABC] w-[146px] h-[49px] text-white px-4 py-2 rounded-md font-medium">
                             Find Jobs
                         </button>
                     </li>
@@ -68,7 +68,7 @@
                 </li>
                 <li class="w-full text-center mt-6">
                     <button
-                        class="bg-[#339ABC] w-[200px] h-[50px] text-white text-lg font-medium px-6 py-3 rounded-lg shadow-md hover:bg-[#257A8A] transition-all">
+                        class="bg-[#339ABC] w-[200px] h-[50px] text-white text-lg font-semibold px-6 py-3 rounded-lg shadow-md hover:bg-[#257A8A] transition-all">
                         Find Jobs
                     </button>
                 </li>
@@ -81,20 +81,20 @@
                 <div class="hidden md:flex w-[343px] h-[222px] text-white flex-col items-start gap-[10px]
     md:w-[686px] md:h-[390px] md:gap-[20px]">
                     <!-- Button -->
-                    <button class="w-[153px] h-[26px] text-[12px] rounded-[64px] border border-[#339ABC] bg-[#339ABC1A] flex items-center justify-center
-        md:w-[213px] md:h-[40px] md:text-base">
+                    <button class="w-[153px] h-[26px] text-[12px] font-medium rounded-[64px] border border-[#339ABC] bg-[#339ABC1A] flex items-center justify-center
+        md:w-[213px] md:h-[40px] md:text-base cursor-default">
                         IT Staffing Simplified
                     </button>
                     <!-- Heading -->
-                    <h1 class="text-[30px] leading-[35.19px] font-medium font-sans md:text-[60px] md:leading-[70.38px]">
+                    <h1 class="text-[30px] leading-[35.19px] font-medium  md:text-[60px] md:leading-[70.38px]">
                         Transforming Careers Since 2005
                     </h1>
                     <!-- Paragraph -->
                     <p class="text-[14px] leading-[23.8px] font-normal md:text-[20px] md:leading-[34px] 
         lg:border-l-2 lg:border-[#339ABC] lg:pl-[10px]">
-                        At Triune, we have been staffing the right way for nearly two decades. Whether
-                        you're seeking your next big career opportunity or looking to take your current role to new
-                        heights.
+                        At Triune, we have been staffing the right way for nearly two decades. Whether you're seeking
+                        your next big career opportunity or looking to take your current role to new heights, we are
+                        committed to helping you find the perfect job— or a better one if you're already employed.
                     </p>
                 </div>
 

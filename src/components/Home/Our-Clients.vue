@@ -1,20 +1,17 @@
 <template>
     <div class="container mx-auto text-center p-[30px_16px] lg:p-[60px]">
         <!-- Centered Button -->
-        <div class="flex justify-center mb-6">
-            <button class="w-44 h-10 rounded-full border border-[#339ABC] bg-[#339ABC1A] text-sm">
+        <div class="flex justify-center mb-[40px]">
+            <button class="w-44 h-10  font-medium  rounded-full border border-[#339ABC] bg-[#339ABC1A] text-sm cursor-default">
                 Our Valued Clients
             </button>
+
         </div>
 
         <!-- Responsive Grid Layout for 10 Images -->
         <div class="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6 lg:gap-y-12 place-items-center">
-            <img 
-                v-for="(image, index) in visibleImages" 
-                :key="index" 
-                :src="image" 
-                class="w-24 md:w-28 lg:w-32 object-contain"
-            />
+            <img v-for="(image, index) in visibleImages" :key="index" :src="image"
+                class="w-24 md:w-28 lg:w-32 object-contain" />
         </div>
     </div>
 </template>

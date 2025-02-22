@@ -1,8 +1,8 @@
 <template>
     <section class="bg-white p-[30px_16px] lg:p-[60px] mx-auto max-w-screen-xl">
         <!-- Centered Button -->
-        <div class="flex justify-center mb-6">
-            <button class="w-[195px] h-[38px] rounded-full border border-[#339ABC] bg-[#339ABC1A]">
+        <div class="flex justify-center mb-[40px]">
+            <button class="w-[195px] h-[38px] font-medium  rounded-full border border-[#339ABC] bg-[#339ABC1A] cursor-default">
                 The Triune Advantage
             </button>
         </div>
@@ -21,7 +21,7 @@
                     <h4 class="text-[24px] leading-[30px] md:text-[52px] md:leading-[61px] font-semibold text-[#339ABC] mb-5">
                         20 Years Experience
                     </h4>
-                    <p class="text-[18px] leading-[28px] md:text-[22px] md:leading-[33px] font-normal text-[#8E8E93] mb-5">
+                    <p class="text-[18px] leading-[28px] md:text-[22px] md:leading-[33px] font-normal text-[#606060] mb-5">
                         With a proven track record and an unwavering commitment to excellence, Triune Infomatics
                         delivers staffing solutions that exceed expectations. Experience the difference with a partner
                         who prioritizes your success at every step.

@@ -9,7 +9,7 @@
     <div class="absolute inset-0 flex items-center justify-center">
       <div class="container mx-auto px-4 lg:px-[60px] text-white text-center">
         <div class="w-full max-w-[1260px] flex flex-col items-center justify-center gap-5 mx-auto">
-          <h1 class="text-[18px] leading-[27px] font-medium lg:text-[33px] lg:leading-[49.5px] md:font-bold">
+          <h1 class="text-[18px] leading-[27px] font-bold lg:text-[33px] lg:leading-[49.5px] ">
             Ready to transform your career or elevate your team?
           </h1>
 
