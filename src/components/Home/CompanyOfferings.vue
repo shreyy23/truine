@@ -3,7 +3,7 @@
     <div class="container mx-auto p-[30px_16px] lg:p-[60px]">
       <!-- Centered Button -->
       <div class="flex justify-center">
-        <button class="w-[170px] h-[38px] rounded-[64px] border border-[#339ABC] bg-[#339ABC1A] mb-[30px]">
+        <button class="w-[170px] h-[38px] font-medium  rounded-[64px] border border-[#339ABC] bg-[#339ABC1A] mb-[40px] cursor-default">
           What we offer
         </button>
       </div>
@@ -27,14 +27,14 @@
 md:text-[25px] md:leading-[34.1px] mb-[10px]">
                 IT Staffing
               </h3>
-              <p class="custom-text text-[16px] leading-[24px] font-normal font-['Nunito Sans']
+              <p class="custom-text text-[16px] leading-[24px] font-normal 
 md:text-[21px] md:leading-[31.5px] text-[#606060]">
                 Triune provides expert IT staffing solutions, matching top talent with businesses for innovation and
                 success.
               </p>
             </div>
             <span
-              class="w-[12.73px] h-[12.73px] md:w-[24px] md:h-[24px] transition-transform duration-300 group-hover:rotate-45">
+              class="w-[12.73px] h-[12.73px] md:w-[24px] md:h-[24px] mt-[10px] transition-transform duration-300 group-hover:rotate-45">
               <img src="/img/icons/Arrow_Up_Right_LG.png" alt="Arrow">
             </span>
           </div>
@@ -60,7 +60,7 @@ md:text-[21px] md:leading-[31.5px] text-[#606060]">
    md:text-[25px] md:leading-[34.1px] mb-[10px]">
                 IT Solution Reseller
               </h3>
-              <p class="custom-text text-[16px] leading-[24px] font-normal font-['Nunito Sans']
+              <p class="custom-text text-[16px] leading-[24px] font-normal 
    md:text-[21px] md:leading-[31.5px] text-[#606060]">
                 Triune simplifies IT procurement, offering software, cloud, and infrastructure solutions with seamless
                 support.
@@ -68,7 +68,7 @@ md:text-[21px] md:leading-[31.5px] text-[#606060]">
             </div>
 
             <span class="w-[12.73px] h-[12.73px] 
-       md:w-[24px] md:h-[24px] transition-transform duration-300 group-hover:rotate-45 ">
+       md:w-[24px] md:h-[24px] mt-[10px] transition-transform duration-300 group-hover:rotate-45 ">
               <img src="/public/img/icons/Arrow_Up_Right_LG.png">
             </span>
 
