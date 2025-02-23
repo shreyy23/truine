@@ -112,7 +112,7 @@ const menuOpen = ref(false);
 const toggleMenu = () => menuOpen.value = !menuOpen.value;
 
 const mobileImage = 'public/img/HeroBgMobile.png';
-const desktopImage = 'public/img/HeroBg.png';
+const desktopImage = '/img/HeroBg.png';
 
 const isMobile = ref(false);
 const checkScreen = () => {
