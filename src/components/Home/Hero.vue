@@ -111,7 +111,7 @@ import { ref, onMounted } from 'vue';
 const menuOpen = ref(false);
 const toggleMenu = () => menuOpen.value = !menuOpen.value;
 
-const mobileImage = 'public/img/HeroBgMobile.png';
+const mobileImage = '/img/HeroBgMobile.png';
 const desktopImage = '/img/HeroBg.png';
 
 const isMobile = ref(false);
