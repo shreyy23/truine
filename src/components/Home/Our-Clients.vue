@@ -20,16 +20,16 @@
 import { ref, computed, onMounted, onUnmounted } from "vue";
 
 const images = [
-    "/public/clients/client1.png",
-    "/public/clients/client2.png",
-    "/public/clients/client3.png",
-    "/public/clients/client4.png",
-    "/public/clients/client1.png",
-    "/public/clients/client4.png",
-    "/public/clients/client3.png",
-    "/public/clients/client2.png",
-    "/public/clients/client1.png",
-    "/public/clients/client4.png"
+    "/clients/client1.png",
+    "/clients/client2.png",
+    "/clients/client3.png",
+    "/clients/client4.png",
+    "/clients/client1.png",
+    "/clients/client4.png",
+    "/clients/client3.png",
+    "/clients/client2.png",
+    "/clients/client1.png",
+    "/clients/client4.png"
 ];
 
 const windowWidth = ref(window.innerWidth);
