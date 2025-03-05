@@ -10,7 +10,7 @@
         <nav class="absolute top-0 left-0 w-full z-20 bg-transparent/25">
             <div class="container mx-auto flex items-center justify-between p-[8px]  lg:px-[60px]">
                 <div class=" lg:p-0">
-                    <img src="/img/Triune_Logo.png" class="w-[120px] h-[40px] lg:w-[200px] lg:h-[94.77px]">
+                    <img src="/img/Triune_Logo.png" class="w-[100px] h-[55px] lg:w-[200px] lg:h-[94.77px]">
                 </div>
                 <button v-if="isMobile" @click="toggleMenu" class="text-white text-2xl block lg:hidden">
                     ☰
