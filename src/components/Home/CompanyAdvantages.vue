@@ -8,7 +8,7 @@
         </div>
 
         <!-- Content Container -->
-        <div class="flex flex-col md:flex-row items-center justify-between gap-12 md:gap-16 lg:gap-20">
+        <div class="flex flex-col md:flex-row items-center justify-between md:gap-16 lg:gap-20">
             <!-- Left Column (Image) -->
             <div class="w-full md:w-3/5 flex-1">
                 <img src="/public/img/advantageSection.png" alt="Experience Image" 

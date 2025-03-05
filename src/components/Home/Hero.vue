@@ -42,38 +42,32 @@
 
         <!-- Full-Screen Sidebar (Mobile Menu) -->
         <div class="fixed inset-0 bg-white z-30 flex flex-col items-center justify-center transform transition-transform duration-300"
-            :class="menuOpen ? 'translate-y-0' : '-translate-y-full'">
-            <button @click="toggleMenu"
-                class="absolute top-6 right-6 text-3xl font-bold text-gray-700 hover:text-gray-900">
-                ✖
+    :class="menuOpen ? 'translate-y-0' : '-translate-y-full'">
+    <button @click="toggleMenu"
+        class="absolute top-6 right-6 text-xl font-normal text-gray-700 hover:text-gray-900">
+        ✖
+    </button>
+    <ul class="flex flex-col items-center text-gray-900 text-lg font-normal w-full">
+        <li class="w-full border-t border-gray-300 text-center">
+            <a href="#" class="block py-3 w-full hover:text-[#339ABC] transition-all">Home</a>
+        </li>
+        <li class="w-full border-t border-gray-300 text-center">
+            <a href="#" class="block py-3 w-full hover:text-[#339ABC] transition-all">About</a>
+        </li>
+        <li class="w-full border-t border-gray-300 text-center">
+            <a href="#" class="block py-3 w-full hover:text-[#339ABC] transition-all">IT Staffing Solution</a>
+        </li>
+        <li class="w-full border-t border-gray-300 text-center border-b">
+            <a href="#" class="block py-3 w-full hover:text-[#339ABC] transition-all">IT Solution Reseller</a>
+        </li>
+        <li class="w-full text-center mt-4">
+            <button
+                class="bg-[#339ABC] w-[180px] h-[45px] text-white text-base font-medium px-4 py-2 rounded-lg shadow-md hover:bg-[#257A8A] transition-all">
+                Find Jobs
             </button>
-            <ul class="flex flex-col items-center space-y-6 text-gray-900 text-2xl font-semibold tracking-wide">
-                <li class="w-full text-center">
-                    <a href="#"
-                        class="block py-4 w-full hover:bg-[#339ABC] hover:text-white transition-all rounded-md">Home</a>
-                </li>
-                <li class="w-full text-center">
-                    <a href="#"
-                        class="block py-4 w-full hover:bg-[#339ABC] hover:text-white transition-all rounded-md">About</a>
-                </li>
-                <li class="w-full text-center">
-                    <a href="#"
-                        class="block py-4 w-full hover:bg-[#339ABC] hover:text-white transition-all rounded-md">IT
-                        Staffing Solution</a>
-                </li>
-                <li class="w-full text-center">
-                    <a href="#"
-                        class="block py-4 w-full hover:bg-[#339ABC] hover:text-white transition-all rounded-md">IT
-                        Solution Reseller</a>
-                </li>
-                <li class="w-full text-center mt-6">
-                    <button
-                        class="bg-[#339ABC] w-[200px] h-[50px] text-white text-lg font-semibold px-6 py-3 rounded-lg shadow-md hover:bg-[#257A8A] transition-all">
-                        Find Jobs
-                    </button>
-                </li>
-            </ul>
-        </div>
+        </li>
+    </ul>
+</div>
 
         <!-- Hero Content -->
         <div class="container mx-auto">
