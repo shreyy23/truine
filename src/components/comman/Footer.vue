@@ -1,114 +1,95 @@
 <template>
-  <footer class="flex flex-col justify-end items-center w-full bg-white py-[50px]">
-    <!-- Container -->
-    <div class="w-full max-w-[1366px] px-[60px] lg:px-[60px] sm:px-[16px]">
-      <!-- Frame 194 -->
-      <div
-        class="flex flex-col lg:flex-row items-end justify-between w-full gap-[30px] lg:gap-[100px] h-auto lg:h-[259.27px]">
-        <!-- Text Section -->
-        <div class="flex flex-col items-start gap-[30px] w-full lg:w-[319px] h-auto lg:h-[259.27px]">
-          <!-- Logo -->
-          <img src="/public/img/icons/color_logo.png" alt="Logo"
-            class="w-[130px] h-[37.97px] lg:w-[155px] lg:h-[45.27px] object-contain" />
-
-          <!-- Contact Info -->
-          <div class="flex flex-col items-start gap-[30px] w-full lg:w-[319px] h-auto lg:h-[184px]">
-            <!-- Phone -->
-            <div class="flex flex-row items-center gap-[10px] w-full lg:w-[170px] h-[27px] lg:h-[31px]">
-              <img src="/public/img/icons/phone-calling.svg" alt="Phone"
-                class="w-[24px] h-[24px] lg:w-[28px] lg:h-[28px]" />
-              <span class="text-[16px] lg:text-[18px] leading-[170%] text-[#222222]">(510) 854-8766</span>
-            </div>
-
-            <!-- Email -->
-            <div class="flex flex-row items-center gap-[10px] w-full lg:w-[242px] h-[27px] lg:h-[31px]">
-              <img src="/public/img/icons/mail.svg" alt="Email" class="w-[24px] h-[24px] lg:w-[28px] lg:h-[28px]" />
-              <span class="text-[16px] lg:text-[18px] leading-[170%] text-[#222222]">
-                admin@triuneinfomatics.com
-              </span>
-            </div>
-
-            <!-- Address -->
-            <div class="flex flex-row items-center gap-[10px] w-full lg:w-[284px] h-[54px]">
-              <img src="/public/img/icons/location.svg" alt="Address"
-                class="w-[24px] h-[24px] lg:w-[28px] lg:h-[28px]" />
-              <span class="text-[16px] lg:text-[18px] leading-[170%] text-[#222222]">
-                39111 Paseo Padre Parkway #306 Fremont, CA 94538
-              </span>
+  <div class="min-h-screen flex items-center justify-center">
+    <div class="w-full max-w-[1366px] h-auto lg:h-[610px] flex flex-col lg:flex-row justify-start items-end">
+      <!-- Left Section -->
+      <div class="w-full lg:w-[690px] h-auto lg:h-[610px] px-10 lg:px-[100px] py-20 lg:py-[85px] bg-[#339abc] rounded-tr-xl flex flex-col justify-start items-start gap-2.5 overflow-hidden">
+        <div class="w-full h-auto flex flex-col justify-start items-start gap-10">
+          <div class="w-full h-auto flex flex-col justify-start items-center gap-4">
+            <div class="w-full text-white text-3xl lg:text-[54px] font-bold  leading-tight lg:leading-[81px]">
+              Ready to transform your career or elevate your team?
             </div>
           </div>
-        </div>
-
-        <!-- Services Section -->
-        <div
-          class="flex flex-col lg:flex-row items-start lg:items-end justify-between w-full lg:w-[500px] h-auto lg:h-[259px] gap-[30px] lg:gap-[40px]">
-          <!-- Services -->
-          <div class="flex flex-col items-start gap-[10px] w-full lg:w-[182px] h-auto lg:h-[184px]">
-            <div class="text-[18px] leading-[170%] font-semibold text-[#222222]">Services</div>
-            <div class="text-[16px] lg:text-[18px] leading-[170%] text-[#222222]">IT Staffing</div>
-            <div class="text-[16px] lg:text-[18px] leading-[170%] text-[#222222]">IT Solutions Reseller</div>
-          </div>
-
-          <!-- Pages -->
-          <div class="flex flex-col items-start gap-[10px] w-full lg:w-[125px] h-auto lg:h-[184px]">
-            <div class="text-[18px] leading-[170%] font-semibold text-[#222222]">Pages</div>
-            <div class="text-[16px] lg:text-[18px] leading-[170%] text-[#222222]">About us</div>
-            <div class="text-[16px] lg:text-[18px] leading-[170%] text-[#222222]">Join us</div>
-            <div class="text-[16px] lg:text-[18px] leading-[170%] text-[#222222]">Contact us</div>
-          </div>
-
-          <!-- Jobs -->
-          <div class="flex flex-col items-start gap-[10px] w-full lg:w-[113px] h-auto lg:h-[184px]">
-            <div class="text-[18px] leading-[170%] font-semibold text-[#222222]">Jobs</div>
-            <div class="text-[16px] lg:text-[18px] leading-[170%] text-[#222222]">Job Portal</div>
-            <div class="text-[16px] lg:text-[18px] leading-[170%] text-[#222222]">Referrals</div>
-          </div>
+          <button class="px-8 py-3.5 rounded-lg border-2 border-white flex justify-center items-center gap-4 overflow-hidden">
+            <span class="text-white text-base font-bold ">Let’s Connect</span>
+          </button>
         </div>
       </div>
 
-      <!-- Line -->
-      <div class="w-full h-[0px] border-[0.5px] border-[#00000033] my-[30px]"></div>
+      <!-- Right Section -->
+      <div class="w-full lg:w-auto lg:flex-1 px-6 lg:px-[60px] py-6 lg:py-[30px] bg-blue-100 rounded-tr-lg flex flex-col justify-center items-start gap-10 overflow-hidden">
+        <div class="w-full flex flex-col justify-start items-start gap-8">
+          <img class="w-[155px] h-[45.27px]" src="/public/img/icons/color_logo.png" alt="Logo" />
+        </div>
+        <div class="w-full h-auto flex flex-col justify-start items-start gap-8">
+          <div class="w-full flex flex-col lg:flex-row justify-between items-start gap-8">
+            <!-- Pages Section -->
+            <div class="flex flex-col justify-start items-start gap-5">
+              <div class="text-[#222222] text-2xl font-semibold ">Pages</div>
+              <div class="text-[#222222] text-xl font-medium ">IT Staffing</div>
+              <div class="text-[#222222] text-xl font-medium ">IT Solutions Reseller</div>
+              <div class="text-[#222222] text-xl font-medium ">About us</div>
+              <div class="text-[#222222] text-xl font-medium ">Privacy policy</div>
+            </div>
 
-      <!-- Footer Note -->
-      <div class="flex flex-col lg:flex-row justify-between items-center w-full h-auto lg:h-[40px] gap-[30px] lg:gap-0">
-        <!-- Copyright -->
-        <div class="text-[16px] leading-[19px] text-[#222222] text-center lg:text-left">
+            <!-- Jobs Section -->
+            <div class="flex flex-col justify-start items-start gap-5">
+              <div class="text-[#222222] text-2xl font-semibold ">Jobs</div>
+              <div class="flex justify-start items-center gap-2">
+                <span class="text-[#222222] text-xl font-medium ">Job Portal</span>
+                <!-- <img class="w-5 h-5" src="/public/img/icons/arrow-icon.png" alt="Arrow Icon" /> -->
+              </div>
+              <div class="text-[#222222] text-xl font-medium ">Referrals</div>
+            </div>
+          </div>
+
+          <!-- Contact Section -->
+          <div class="w-full flex flex-col justify-start items-start gap-8">
+            <div class="w-full flex flex-col lg:flex-row justify-between items-center gap-8">
+              <div class="flex items-center gap-4">
+                <img class="w-7 h-7" src="/public/img/icons/mail.svg" alt="Email Icon" />
+                <span class="text-[#222222] text-lg font-medium ">admin@triuneinfomatics.com</span>
+              </div>
+              <div class="flex items-center gap-4">
+                <img class="w-7 h-7" src="/public/img/icons/phone-calling.svg" alt="Phone Icon" />
+                <span class="text-[#222222] text-lg font-medium ">(510) 854-8766</span>
+              </div>
+            </div>
+
+            <div class="w-full flex flex-col lg:flex-row justify-between items-center gap-8">
+              <div class="flex items-center gap-4">
+                <img class="w-7 h-7" src="/public/img/icons/location.svg" alt="Location Icon" />
+                <span class="text-[#222222] text-lg font-medium">
+                  39111 Paseo Padre Parkway<br />Fremont, CA 94538
+                </span>
+              </div>
+
+              <!-- Social Media Icons -->
+              <div class="w-[171px] flex flex-col justify-center items-start gap-10">
+                <div class="flex gap-6">
+                  <img class="w-10 h-10" src="/public/img/icons/Facebook.svg" alt="Facebook Icon" />
+                  <img class="w-10 h-10" src="/public/img/icons/Facebook.svg" alt="LinkedIn Icon" />
+                  <img class="w-10 h-10" src="/public/img/icons/Facebook.svg" alt="Twitter Icon" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="w-full text-[#222222] text-lg font-normal">
           2024 © All rights reserved by Triune Infomatics
-        </div>
-
-        <!-- Links -->
-        <div class="flex flex-row items-center gap-[12px]">
-          <div class="text-[16px] leading-[19px] text-[#222222]">Privacy policy</div>
-          <div class="text-[16px] leading-[24px] text-[#222222]">|</div>
-          <div class="text-[16px] leading-[19px] text-[#222222]">Terms & Conditions</div>
-        </div>
-
-        <!-- Social Media -->
-        <div class="flex flex-row items-center gap-[16px]">
-          <div class="w-[34px] h-[34px] border-[1px] border-[#222222] rounded-full flex items-center justify-center">
-            <img src="/public/img/icons/Facebook.svg" alt="Facebook" class="w-[18px] h-[18px] object-contain" />
-          </div>
-          <div class="w-[34px] h-[34px] border-[1px] border-[#222222] rounded-full flex items-center justify-center">
-            <img src="/public/img/icons/Instagram.svg" alt="Facebook" class="w-[18px] h-[18px] object-contain" />
-          </div>
-          <div class="w-[34px] h-[34px] border-[1px] border-[#222222] rounded-full flex items-center justify-center">
-            <img src="/public/img/icons/LinkedIn.svg" alt="Facebook" class="w-[18px] h-[18px] object-contain" />
-          </div>
-          <div class="w-[34px] h-[34px] border-[1px] border-[#222222] rounded-full flex items-center justify-center">
-            <img src="/public/img/icons/Twitter.svg" alt="Facebook" class="w-[18px] h-[18px] object-contain" />
-          </div>
         </div>
       </div>
     </div>
-  </footer>
+  </div>
 </template>
 
 <script>
 export default {
-  name: "FooterComponent",
+  name: "ResponsiveLayout",
 };
 </script>
 
 <style scoped>
-/* Add custom styles if needed */
+/* Add any custom styles here if needed */
 </style>
