@@ -10,9 +10,9 @@
               Ready to transform your career or elevate your team?
             </div>
           </div>
-          <button
-            class="px-8 py-3.5 rounded-lg border-2 border-white flex justify-center items-center gap-4 overflow-hidden">
-            <span class="text-white text-base font-bold ">Let’s Connect</span>
+          <button class="px-8 py-3.5 rounded-lg border-2 border-white flex justify-center items-center gap-4 overflow-hidden
+         hover:bg-white hover:text-[#339abc] transition duration-300">
+            <span class="text-white text-base font-bold hover:text-[#339abc]">Let’s Connect</span>
           </button>
         </div>
       </div>

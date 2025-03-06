@@ -48,7 +48,7 @@
                         <div class="relative z-10">
                             <h3 class="text-[24px] leading-[36px] font-medium text-[#222222]">{{ activeTestimonial.title
                             }}</h3>
-                            <p class="text-[#606060] text-[22px] font-normal leading-[33px] mt-[10px]">
+                            <p class="text-[#606060] text-[20px] font-normal leading-[33px] mt-[10px]">
                                 {{ activeTestimonial.text }}
                             </p>
                         </div>

@@ -49,16 +49,16 @@
     </button>
     <ul class="flex flex-col items-center text-gray-900 text-lg font-normal w-full">
         <li class="w-full border-t border-gray-300 text-center">
-            <a href="#" class="block py-3 w-full hover:text-[#339ABC] transition-all">Home</a>
+            <a href="#" class="block py-3 w-full hover:text-[#339ABC] font-medium transition-all">Home</a>
         </li>
         <li class="w-full border-t border-gray-300 text-center">
-            <a href="#" class="block py-3 w-full hover:text-[#339ABC] transition-all">About</a>
+            <a href="#" class="block py-3 w-full hover:text-[#339ABC] font-medium transition-all">About</a>
         </li>
         <li class="w-full border-t border-gray-300 text-center">
-            <a href="#" class="block py-3 w-full hover:text-[#339ABC] transition-all">IT Staffing Solution</a>
+            <a href="#" class="block py-3 w-full hover:text-[#339ABC] font-medium transition-all">IT Staffing Solution</a>
         </li>
         <li class="w-full border-t border-gray-300 text-center border-b">
-            <a href="#" class="block py-3 w-full hover:text-[#339ABC] transition-all">IT Solution Reseller</a>
+            <a href="#" class="block py-3 w-full hover:text-[#339ABC] font-medium transition-all">IT Solution Reseller</a>
         </li>
         <li class="w-full text-center mt-4">
             <button
@@ -72,10 +72,10 @@
         <!-- Hero Content -->
         <div class="container mx-auto">
             <div class="relative flex items-start sm:justify-center md:justify-start md:pl-[60px] md:pt-[308px]">
-                <div class="hidden md:flex w-[343px] h-[222px] text-white flex-col items-start gap-[10px]
+                <div class="md:flex w-[343px] h-[222px] text-white flex-col items-start gap-[10px]
     md:w-[686px] md:h-[390px] md:gap-[20px]">
                     <!-- Button -->
-                    <button class="w-[153px] h-[26px] text-[12px] font-medium rounded-[64px] border border-[#339ABC] bg-[#339ABC1A] flex items-center justify-center
+                    <button class="it-button w-[153px] h-[26px] text-[12px] font-medium rounded-[64px] border border-[#339ABC] bg-[#339ABC1A] flex items-center justify-center
         md:w-[213px] md:h-[40px] md:text-base cursor-default">
                         IT Staffing Simplified
                     </button>
@@ -121,3 +121,20 @@ onMounted(() => {
     window.addEventListener('resize', checkScreen);
 });
 </script>
+<style scoped>
+    @media (max-width: 767px) {
+        .relative {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            line-height: 20;
+            padding-top: 55px;
+        }
+        h1 {
+            margin-bottom: 20px;
+        }
+        .it-button{
+            margin-bottom: 7px;
+        }
+    }
+</style>
