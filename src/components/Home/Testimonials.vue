@@ -6,7 +6,7 @@
                 <div>
                     <h2 class="text-[28px] leading-[32.84px] font-medium sm:text-[36px] sm:leading-[42.12px] 
                         md:text-[44px] md:leading-[51.61px]  text-white mb-[24px]">
-                        What our clients say <span class="block">about us</span>
+                        Hear From those we've <span class="block">worked with!</span>
                     </h2>
 
                     <p class="text-[#F0F0F0] mt-2 max-w-full sm:max-w-[480px] md:max-w-[560px] text-[18px] leading-[27px] 
