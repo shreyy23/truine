@@ -4,7 +4,7 @@
             <div class="grid grid-cols-1 justify-items-center md:grid-cols-2 gap-6 items-start lg:mb-5">
                 <!-- Left Column -->
                 <div>
-                    <h2 class="text-[28px] leading-[32.84px] font-medium sm:text-[36px] sm:leading-[42.12px] 
+                    <h2 class="text-[28px] leading-[32.84px]  sm:text-[36px] sm:leading-[42.12px] 
                         md:text-[44px] md:leading-[51.61px]  text-white mb-[24px]">
                         Hear from those we've <span class="block">worked with!</span>
                     </h2>
