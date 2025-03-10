@@ -20,7 +20,7 @@
 
       <!-- Right Section -->
       <div
-        class="w-full xl:w-1/2 xl:flex-1 px-6 xl:px-[60px] py-6 xl:py-[30px] bg-[#EBF5F8] xl:rounded-tr-lg flex flex-col justify-center items-start gap-10 overflow-hidden">
+        class="w-full xl:w-1/2 h-auto xl:h-[570px] xl:flex-1 px-6 xl:px-[60px] py-6 xl:py-[30px] bg-[#EBF5F8] xl:rounded-tr-lg flex flex-col justify-center items-start gap-10 overflow-hidden">
         <div class="w-full flex flex-col justify-start items-start gap-8">
           <img class="w-[155px] h-[45.27px]" src="/public/img/icons/color_logo.png" alt="Logo" />
         </div>
